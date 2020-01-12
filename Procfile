@@ -1,2 +1,1 @@
-web: python manage.py runserver
-web: gunicorn tasks.tasks.wsgi --log-file -
+web: gunicorn tasks.tasks.manage:app
