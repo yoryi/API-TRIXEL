@@ -6,7 +6,7 @@ from Peliculas.views import Peliculas_Populares_ViewSet
 
 
 router = DefaultRouter()
-router.register(r'peliculas_populares', Peliculas_Populares_ViewSet)
+router.register(r'', Peliculas_Populares_ViewSet)
 
 urlpatterns = router.urls 
 
