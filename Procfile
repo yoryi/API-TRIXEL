@@ -1,2 +1,2 @@
 web: python manage.py runserver
-web: gunicorn tasks.tasks.asgi --log-file -
+web: gunicorn tasks.tasks.wsgi --log-file -
