@@ -1,1 +1,1 @@
-web: gunicorn tasks.tasks.manage:app
+web: gunicorn tasks.manage:app
