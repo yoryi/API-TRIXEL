@@ -1,1 +1,1 @@
-web: gunicorn tasks.manage:app
+web: gunicorn tasks.tasks.wsgi:app --workers 16
